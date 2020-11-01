@@ -1,0 +1,11 @@
+<div class="row mt-4">
+    <h2>Up Coming Movies</h2>
+   <!-- <span>Top Rated Movies</span> -->
+   <div class="row_poster mt-4">
+   <div *ngFor="let movie of upcomingMoviesList">
+     <img class="row_poster mt-4"
+     src= "{{'https://image.tmdb.org/t/p/original/'+movie.poster_path}}"
+     alt={{movie.name}}/>
+   </div>
+   </div>
+ </div>

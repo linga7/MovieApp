@@ -123,6 +123,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "ShowMovieList"
+    }
+  },
+  "defaultProject": "ShowMovieList",
+  "cli": {
+    "analytics": "8aa86e5e-0ea1-4bb9-8d0f-41a80d0ab158"
+  }
 }
